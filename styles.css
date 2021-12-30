@@ -1,0 +1,17 @@
+#gridContainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.gridDivs {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red; /* temporary */
+    width: 48px; /* temporary */
+    height: 48px; /* temporary */
+}
