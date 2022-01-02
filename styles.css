@@ -1,17 +1,28 @@
-#gridContainer {
+#mainContainer,
+#centerScreen {
     display: flex;
     margin: 0;
     padding: 0;
-    width: 800px;
-    height: 800px;
-    flex-wrap: wrap;
+}
+
+#mainContainer {
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gridContainer {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 .gridDivs {
-    display: flex;
-    margin: 0;
-    padding: 0;
     border: 1px solid red; /* temporary */
-    width: 48px; /* temporary */
-    height: 48px; /* temporary */
 }

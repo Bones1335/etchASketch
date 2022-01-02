@@ -8,10 +8,23 @@
     <link rel='stylesheet' href='./styles.css'>
 </head>
 <body>
+    <div id='mainContainer'>
+        <h1>Etch-A-Sketch: Web Edition</h1>
 
-    <div id='gridContainer'></div>
+        <div id='centerScreen'>
+            <ul id='gridSelection'>
+                <li><button>16 x 16</button></li>
+                <li><button>32 x 32</button></li>
+                <li><button>64 x 64</button></li>
+                <li><button>Custom</button></li>
+                <li><button>Clear</button></li>
+            </ul>
 
+            <div id='gridContainer'></div>
+        </div>
 
+        <div id='footer'></div>
+    </div>
 <script src='app.js'></script>
 
 </body>
