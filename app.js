@@ -8,6 +8,26 @@ function grid(){
         
         gridContainer.appendChild(gridDivs);
     };
+      
 };
 
 grid();
+
+const gridDivsColor = document.querySelectorAll('.gridDivs');
+
+function addColor() {
+    for (let i = 0; i < gridDivsColor.length; i++) {
+        gridDivsColor[i].addEventListener('mouseover', () => {
+            gridDivsColor[i].classList.add('new');
+        });
+    };
+};
+
+addColor();
+
+
+// test function
+function sole() {
+    console.log('help');
+};
+    
