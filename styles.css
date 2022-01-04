@@ -19,13 +19,14 @@ ul {
     display: grid;
     width: 500px;
     height: 500px;
+    border: 1px solid red; /* temporary */
     grid-template-columns: repeat(16, 1fr); /* need to put in JS so sizing can change */
     grid-template-rows: repeat(16, 1fr); /* need to put in JS so sizing can change */
 }
 
-.gridDivs {
-    border: 0.5px solid red; /* temporary */
-}
+/*.gridDivs {
+    
+}*/
 
 .new {
     background-color: black;
